@@ -1,0 +1,33 @@
+# ========== 模型文件（体积过大，不入库）==========
+AIOS_demo/models/
+# BGE-M3 向量模型 + BGE-reranker 重排模型
+# 下载地址：https://pan.baidu.com/s/1aBnccvCraPP0vlfDYzjLFg?pwd=8hmx 提取码: 8hmx
+# 下载后解压到 AIOS_demo/models/ 目录下
+
+# ========== 运行时生成（可重建）==========
+AIOS_demo/chroma_db/
+AIOS_demo/knowledge.db
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.env
+
+# ========== 前端 ==========
+frontend/node_modules/
+frontend/dist/
+
+# ========== 编辑器 / 系统 ==========
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
