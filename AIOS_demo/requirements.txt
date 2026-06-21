@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn==0.34.0
+pydantic==2.10.0
+pydantic-settings==2.7.0
+
+# 向量数据库
+chromadb==0.6.0
+
+# 本地模型推理
+torch==2.5.0
+transformers==4.46.0
+sentencepiece==0.2.0
+accelerate==1.0.0
+
+# HTTP 请求（调用 LLM API）
+requests==2.32.0
+openai==1.55.0  # 兼容 Ollama 和阿里云百炼 API
+
+# 工具
+python-dotenv==1.0.0
